@@ -1389,27 +1389,63 @@ async def sendroleslt_slash(interaction: discord.Interaction):
     await interaction.response.defer(ephemeral=True)
 
     message = (
-        "**Patron**\n"
-        "- Nejvyšší autorita celé organizace. Hlava skupiny, která určuje směr frakce, rozhoduje o zásadních věcech a má poslední slovo při všech důležitých rozhodnutích.\n\n"
-        "**Jefe del Jefes**\n"
-        "- Pravá ruka Patrona a druhá nejvyšší pozice v hierarchii. Dohlíží na chod celé organizace, koordinuje vyšší vedení a zastupuje Patrona v jeho nepřítomnosti.\n\n"
-        "**El Jefe**\n"
-        "- Vysoce postavený člen vedení, který dohlíží na plnění rozkazů, organizuje důležité akce a drží pořádek mezi vyšší strukturou frakce.\n\n"
-        "**Sub Jefe**\n"
-        "- Nižší vedení organizace. Pomáhá s interním chodem frakce, předává informace směrem dolů i nahoru a dohlíží na disciplínu mezi členy.\n\n"
-        "**Capitán de capitanes**\n"
-        "- Zkušený a respektovaný velitel nižších struktur. Má na starost koordinaci více členů najednou, organizaci menších akcí a udržování pořádku mezi velitelskou úrovní.\n\n"
-        "**Captain**\n"
-        "- Důležitý člen command struktury, který vede běžné členy v terénu, předává rozkazy od vyšších pozic a dohlíží na správné fungování při každodenních aktivitách frakce.\n\n"
-        "**Sub Capo**\n"
-        "- Zástupce commandu a opora pro vyšší členy. Pomáhá s organizací lidí, kontroluje aktivitu členů a dbá na to, aby byly rozkazy plněny bez zbytečných chyb.\n\n"
-        "**Asociade de honor**\n"
-        "- Prověřený a vážený člen organizace, který si vybudoval respekt svou loajalitou a přístupem. Není součástí nejvyššího velení, ale má ve frakci silné postavení a důvěru vedení.\n\n"
-        "**Sicario**\n"
-        "- Specializovaný člen určený pro citlivé, nebezpečné a důležité úkoly. Je známý svou efektivitou, loajalitou a schopností jednat rychle bez zbytečné pozornosti.\n\n"
-        "**Soldado**\n"
-        "- Plnohodnotný člen. Základní stavební kámen celé organizace, který se aktivně podílí na chodu frakce, respektuje vedení a reprezentuje jméno skupiny v ulicích."
-    )
+    "# 『 HIERARCHIE ORGANIZACE 』\n\n"
+
+    "## **El Padrino**\n"
+    "```"
+    "Absolutní autorita celé organizace, jejíž slovo je konečné a respektované bez odporu."
+    "```\n\n"
+
+    "## **Patron**\n"
+    "```"
+    "Hlava organizace určující směr frakce a rozhodující o nejdůležitějších záležitostech."
+    "```\n\n"
+
+    "## **Jefe del Jefes**\n"
+    "```"
+    "Pravá ruka Patrona dohlížející na chod organizace a koordinaci vedení."
+    "```\n\n"
+
+    "## **El Jefe**\n"
+    "```"
+    "Vysoce postavený člen vedení organizující důležité akce a dohled nad strukturou."
+    "```\n\n"
+
+    "## **Sub Jefe**\n"
+    "```"
+    "Nižší vedení zajišťující disciplínu a komunikaci mezi členy organizace."
+    "```\n\n"
+
+    "## **Capitán de capitanes**\n"
+    "```"
+    "Respektovaný velitel koordinující členy a menší operace organizace."
+    "```\n\n"
+
+    "## **Captain**\n"
+    "```"
+    "Člen command struktury vedoucí členy v terénu a předávající rozkazy vedení."
+    "```\n\n"
+
+    "## **Sub Capo**\n"
+    "```"
+    "Opora vyššího vedení starající se o aktivitu a organizaci členů."
+    "```\n\n"
+
+    "## **Asociade de honor**\n"
+    "```"
+    "Prověřený a respektovaný člen s důvěrou vedení a silným postavením ve frakci."
+    "```\n\n"
+
+    "## **Sicario**\n"
+    "```"
+    "Specializovaný člen určený pro nebezpečné a citlivé úkoly organizace."
+    "```\n\n"
+
+    "## **Soldado**\n"
+    "```"
+    "Plnohodnotný člen organizace reprezentující jméno frakce v ulicích."
+    "```"
+)
 
     try:
         await channel.send(message)
