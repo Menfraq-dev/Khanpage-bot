@@ -838,7 +838,7 @@ async def on_member_join(member):
         embed = discord.Embed(
             description=(
                 f"• Dorazil {member.mention}\n"
-                f"• Nezapomeň si přečíst {rules_mention}\n"
+                f"• Nezapomeň si přečíst <#1506345297285218305>\n"
                 f"📅 Account created: {created_at}"
             ),
             color=discord.Color.orange()
