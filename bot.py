@@ -1430,3 +1430,5 @@ try:
 except Exception as e:
     print(f"❌ Discord bot crash: {e}")
     raise
+
+# update
