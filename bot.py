@@ -1855,63 +1855,35 @@ async def sendroleslt_slash(interaction: discord.Interaction):
     await interaction.response.defer(ephemeral=True)
 
     message = (
-    "# 『 HIERARCHIE ORGANIZACE 』\n\n"
+   # 『 HIERARCHIE ORGANIZACE 』
 
-    "## **El Padrino**\n"
-    "```"
-    "Absolutní autorita celé organizace, jejíž slovo je konečné a respektované bez odporu."
-    "```\n\n"
+Patron
+Hlava organizace určující směr frakce a rozhodující o nejdůležitějších záležitostech.
 
-    "## **Patron**\n"
-    "```"
-    "Hlava organizace určující směr frakce a rozhodující o nejdůležitějších záležitostech."
-    "```\n\n"
+Jefe del Jefes
+Pravá ruka Patrona dohlížející na chod organizace a koordinaci vedení.
 
-    "## **Jefe del Jefes**\n"
-    "```"
-    "Pravá ruka Patrona dohlížející na chod organizace a koordinaci vedení."
-    "```\n\n"
+El Jefe
+Vysoce postavený člen vedení organizující důležité akce a dohled nad strukturou.
 
-    "## **El Jefe**\n"
-    "```"
-    "Vysoce postavený člen vedení organizující důležité akce a dohled nad strukturou."
-    "```\n\n"
+Sub Jefe
+Nižší vedení zajišťující disciplínu a komunikaci mezi členy organizace.
 
-    "## **Sub Jefe**\n"
-    "```"
-    "Nižší vedení zajišťující disciplínu a komunikaci mezi členy organizace."
-    "```\n\n"
+Capitán de capitanes
+Respektovaný velitel koordinující členy a menší operace organizace.
 
-    "## **Capitán de capitanes**\n"
-    "```"
-    "Respektovaný velitel koordinující členy a menší operace organizace."
-    "```\n\n"
+Captain
+Člen command struktury vedoucí členy v terénu a předávající rozkazy vedení.
 
-    "## **Captain**\n"
-    "```"
-    "Člen command struktury vedoucí členy v terénu a předávající rozkazy vedení."
-    "```\n\n"
+Asociade de honor
+Prověřený a respektovaný člen s důvěrou vedení a silným postavením ve frakci.
 
-    "## **Sub Capo**\n"
-    "```"
-    "Opora vyššího vedení starající se o aktivitu a organizaci členů."
-    "```\n\n"
+Sicario
+Specializovaný člen určený pro nebezpečné a citlivé úkoly organizace.
 
-    "## **Asociade de honor**\n"
-    "```"
-    "Prověřený a respektovaný člen s důvěrou vedení a silným postavením ve frakci."
-    "```\n\n"
+Soldado
+Plnohodnotný člen organizace reprezentující jméno frakce v ulicích.
 
-    "## **Sicario**\n"
-    "```"
-    "Specializovaný člen určený pro nebezpečné a citlivé úkoly organizace."
-    "```\n\n"
-
-    "## **Soldado**\n"
-    "```"
-    "Plnohodnotný člen organizace reprezentující jméno frakce v ulicích."
-    "```"
-)
 
     try:
         await channel.send(message)
