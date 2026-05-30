@@ -53,7 +53,7 @@ LA_TERRAZA_TEXT_CHANNEL_ID = 1510283877128601850
 
 # ===== RADIO =====
 # Pokud radio na novém serveru nepoužíváš, nech to takhle. Command jen napíše, že kanál nenašel.
-RADIO_CHANNEL_ID = 0
+RADIO_CHANNEL_ID = 1510290282019688618
 RADIO_ROLE_ID = 0
 RADIO_DATA_FILE = "radio.json"
 
